@@ -1,57 +1,19 @@
 # README
 
 The site can be accessed at https://zenhomework.herokuapp.com/
+Login using: (demo@test.com / zenzen)
 
 The presentation can be viewed here:
 
+### Home screen
+![image](https://user-images.githubusercontent.com/38593727/115149545-80c5b800-a019-11eb-93d2-fea000385610.png)
+
 ### Screen during work
+![image](https://user-images.githubusercontent.com/38593727/115149681-0f3a3980-a01a-11eb-8208-b048967e59b4.png)
+
 
 ### Screen during short break
-
+![image](https://user-images.githubusercontent.com/38593727/115149690-1eb98280-a01a-11eb-8636-9035c42f3733.png)
 
 ### Screen during long break
-
-
-### Installation instructions
-
-- Install postgres `brew install postgres`
-- Create postgres user called `dev_user` with password `password`
-
-```
-createuser -s dev_user
-```
-
-Launch `psql`
-
-```
-password dev_user
-```
-
-- install rvm
-```
-\curl -sSL https://get.rvm.io | bash -s stable --ruby
-```
-
-- install rails
-
-```
-gem install rails
-```
-
-- create databases for the project
-
-```
-rake db:create
-```
-
-- create database tables
-
-```
-rake db:migrate
-```
-
-- run rails server
-
-```
-bin/rails server
-```
+![image](https://user-images.githubusercontent.com/38593727/115149738-54f70200-a01a-11eb-90ab-5e96fac65521.png)
