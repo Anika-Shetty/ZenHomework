@@ -3,7 +3,7 @@
 The site can be accessed at https://zenhomework.herokuapp.com/
 Login using: (demo@test.com / zenzen)
 
-The presentation can be viewed here:
+[The presentation can be viewed here](https://docs.google.com/viewer?url=https://github.com/kittycat1/ZenHomework/files/6331567/Zen.Homework.pdf)
 
 ### Home screen
 ![image](https://user-images.githubusercontent.com/38593727/115149545-80c5b800-a019-11eb-93d2-fea000385610.png)
