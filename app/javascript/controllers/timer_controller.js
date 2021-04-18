@@ -140,7 +140,7 @@ export default class extends Controller {
   stopTimer() {
     if (this.countTimerHandle) {
       clearInterval(this.countTimerHandle)
-      // this.displayDefaultState()
+      this.displayDefaultState()
     }
   }
 
