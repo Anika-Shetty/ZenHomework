@@ -21,18 +21,33 @@
 }
 
 .header {
-  display: flex;
-  align-items: center;
   margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo .company-name {
-  font-size: 3em;
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.logo a {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  font-style: italic;
+  display: contents;
+  color: #ea0707;
+}
 
-.profile {
-  margin-left: 30px;
+.logo a:hover {
+  background-color: transparent;
+  text-decoration: none;
+  background-color: white;
+  color: #ea0707;
 }
 
 .count-down-timer {
