@@ -132,7 +132,6 @@ export default class extends Controller {
     this.displayCounter()
 
     this.countTimerHandle = setInterval(() => {
-      this.countDownFrom = this.countDownFrom - 1
       this.processCounter()
     }, 1000)
   }
@@ -152,9 +151,12 @@ export default class extends Controller {
   }
 
   processCounter() {
+    this.countDownFrom = this.countDownFrom - 1
+
     if (this.countDownFrom <= 0) {
       this.switchInterval()
     }
+    
     this.displayCounter()
   }
 
